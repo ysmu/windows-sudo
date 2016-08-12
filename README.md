@@ -2,11 +2,12 @@
 windows-sudo lets you run an arbitrary program with administrative privileges on Windows.
 
 ## Installation
-Move the compiled ```sudo.exe``` into ```C:\Windows``` in one of the ```$PATH``` folders.
+Move the compiled ```sudo.exe``` into ```C:\Windows``` or into one of the folder in ```$PATH```.
 This allows you to execute ```sudo.exe``` from anywhere.
 
 ## Example
 ```sudo cmd```
+
 ```sudo regedit```
 
 ## License
