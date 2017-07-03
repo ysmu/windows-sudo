@@ -8,6 +8,7 @@ Remember, this is *different* from running the program as the Administrator user
 
 ## Example
 ```sudo cmd```
+
 ```sudo regedit```
 
 ## System Requirement
