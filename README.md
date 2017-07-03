@@ -1,14 +1,20 @@
 # windows-sudo
-windows-sudo lets you run an arbitrary program with administrative privileges on Windows.
+windows-sudo lets you run an arbitrary program with elevated privilege on Windows.
+Remember, this is *different* from running the program as the Administrator user.
 
 ## Installation
-Move the compiled ```sudo.exe``` into ```C:\Windows``` or into one of the folder in ```$PATH```.
-This allows you to execute ```sudo.exe``` from anywhere.
+1. Download the latest release from https://github.com/ysmu/windows-sudo/releases/latest
+2. Unzip it and run ```install.bat```
 
 ## Example
 ```sudo cmd```
-
 ```sudo regedit```
+
+## System Requirement
+All functions of windows-sudo *should* be compatible with all 32bit and 64bit builds of Windows newer than Windows XP SP 2 (included). That being said, I will only be maintaining windows-sudo for Windows 10. windows-sudo has been tested on the following platform:
+
+- Windows 10 x64 Build 1607
+- Windows 10 x64 Build 1703
 
 ## License
 MIT License
